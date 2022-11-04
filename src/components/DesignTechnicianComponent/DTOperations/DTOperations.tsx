@@ -16,126 +16,126 @@ const DTOperations: FunctionComponent<IDTOperationsProps> = () => {
         <ButtonUI
           varientprop={'primary'}
           classnameprop={styles['button-submit']}
-          styleprop={{ margin: '4px' }}
+          styleprop={{ padding: '0px' }}
           click={clickSubmit}
           disableButtonprop={false}
-          buttonnameprop={'Login'}
+          buttonnameprop={'Frame advance'}
         ></ButtonUI>
         <ButtonUI
           varientprop={'primary'}
           classnameprop={styles['button-submit']}
-          styleprop={{ margin: '4px' }}
+          styleprop={{ padding: '0px' }}
           click={clickSubmit}
           disableButtonprop={false}
-          buttonnameprop={'Login'}
-        ></ButtonUI>
-      </div>
-      <div className={styles['dt-button-cont']}>
-        <ButtonUI
-          varientprop={'primary'}
-          classnameprop={styles['button-submit']}
-          styleprop={{ margin: '4px' }}
-          click={clickSubmit}
-          disableButtonprop={false}
-          buttonnameprop={'Login'}
-        ></ButtonUI>
-        <ButtonUI
-          varientprop={'primary'}
-          classnameprop={styles['button-submit']}
-          styleprop={{ margin: '4px' }}
-          click={clickSubmit}
-          disableButtonprop={false}
-          buttonnameprop={'Login'}
+          buttonnameprop={'Frame Reverse'}
         ></ButtonUI>
       </div>
       <div className={styles['dt-button-cont']}>
         <ButtonUI
           varientprop={'primary'}
           classnameprop={styles['button-submit']}
-          styleprop={{ margin: '4px' }}
+          styleprop={{ padding: '0px' }}
           click={clickSubmit}
           disableButtonprop={false}
-          buttonnameprop={'Login'}
+          buttonnameprop={'Insert Frame'}
         ></ButtonUI>
         <ButtonUI
           varientprop={'primary'}
           classnameprop={styles['button-submit']}
-          styleprop={{ margin: '4px' }}
+          styleprop={{ padding: '0px' }}
           click={clickSubmit}
           disableButtonprop={false}
-          buttonnameprop={'Login'}
-        ></ButtonUI>
-      </div>
-      <div className={styles['dt-button-cont']}>
-        <ButtonUI
-          varientprop={'primary'}
-          classnameprop={styles['button-submit']}
-          styleprop={{ margin: '4px' }}
-          click={clickSubmit}
-          disableButtonprop={false}
-          buttonnameprop={'Login'}
-        ></ButtonUI>
-        <ButtonUI
-          varientprop={'primary'}
-          classnameprop={styles['button-submit']}
-          styleprop={{ margin: '4px' }}
-          click={clickSubmit}
-          disableButtonprop={false}
-          buttonnameprop={'Login'}
+          buttonnameprop={'Delete Frame'}
         ></ButtonUI>
       </div>
       <div className={styles['dt-button-cont']}>
         <ButtonUI
           varientprop={'primary'}
           classnameprop={styles['button-submit']}
-          styleprop={{ margin: '4px' }}
+          styleprop={{ padding: '0px' }}
           click={clickSubmit}
           disableButtonprop={false}
-          buttonnameprop={'Login'}
+          buttonnameprop={'Insert Component'}
         ></ButtonUI>
         <ButtonUI
           varientprop={'primary'}
           classnameprop={styles['button-submit']}
-          styleprop={{ margin: '4px' }}
+          styleprop={{ padding: '0px' }}
           click={clickSubmit}
           disableButtonprop={false}
-          buttonnameprop={'Login'}
-        ></ButtonUI>
-      </div>
-      <div className={styles['dt-button-cont']}>
-        <ButtonUI
-          varientprop={'primary'}
-          classnameprop={styles['button-submit']}
-          styleprop={{ margin: '4px' }}
-          click={clickSubmit}
-          disableButtonprop={false}
-          buttonnameprop={'Login'}
-        ></ButtonUI>
-        <ButtonUI
-          varientprop={'primary'}
-          classnameprop={styles['button-submit']}
-          styleprop={{ margin: '4px' }}
-          click={clickSubmit}
-          disableButtonprop={false}
-          buttonnameprop={'Login'}
+          buttonnameprop={'Delete Component'}
         ></ButtonUI>
       </div>
       <div className={styles['dt-button-cont']}>
         <ButtonUI
           varientprop={'primary'}
           classnameprop={styles['button-submit']}
-          styleprop={{ margin: '4px' }}
+          styleprop={{ padding: '0px' }}
           click={clickSubmit}
           disableButtonprop={false}
-          buttonnameprop={'Login'}
+          buttonnameprop={'Browse Image'}
         ></ButtonUI>
         <ButtonUI
           varientprop={'primary'}
           classnameprop={styles['button-submit']}
-          styleprop={{ margin: '4px' }}
+          styleprop={{ padding: '0px' }}
           click={clickSubmit}
           disableButtonprop={false}
-          buttonnameprop={'Login'}
+          buttonnameprop={'Undo All'}
+        ></ButtonUI>
+      </div>
+      <div className={styles['dt-button-cont']}>
+        <ButtonUI
+          varientprop={'secondary'}
+          classnameprop={styles['button-submit']}
+          styleprop={{ padding: '0px' }}
+          click={clickSubmit}
+          disableButtonprop={false}
+          buttonnameprop={'Special Instructions'}
+        ></ButtonUI>
+        <ButtonUI
+          varientprop={'secondary'}
+          classnameprop={styles['button-submit']}
+          styleprop={{ padding: '0px' }}
+          click={clickSubmit}
+          disableButtonprop={false}
+          buttonnameprop={'Details Info'}
+        ></ButtonUI>
+      </div>
+      <div className={styles['dt-button-cont']}>
+        <ButtonUI
+          varientprop={'success'}
+          classnameprop={styles['button-submit']}
+          styleprop={{ padding: '0px' }}
+          click={clickSubmit}
+          disableButtonprop={false}
+          buttonnameprop={'Save'}
+        ></ButtonUI>
+        <ButtonUI
+          varientprop={'danger'}
+          classnameprop={styles['button-submit']}
+          styleprop={{ padding: '0px' }}
+          click={clickSubmit}
+          disableButtonprop={false}
+          buttonnameprop={'Delete'}
+        ></ButtonUI>
+      </div>
+      <div className={styles['dt-button-cont']}>
+        <ButtonUI
+          varientprop={'success'}
+          classnameprop={styles['button-submit']}
+          styleprop={{ padding: '0px' }}
+          click={clickSubmit}
+          disableButtonprop={false}
+          buttonnameprop={'Send'}
+        ></ButtonUI>
+        <ButtonUI
+          varientprop={'danger'}
+          classnameprop={styles['button-submit']}
+          styleprop={{ padding: '0px' }}
+          click={clickSubmit}
+          disableButtonprop={false}
+          buttonnameprop={'Exit'}
         ></ButtonUI>
       </div>
     </Fragment>
