@@ -1,0 +1,50 @@
+@use '../../styles/variables';
+
+.pn-main-cont {
+  padding: 2vh 4vw 0vh 4vw;
+}
+.pn-header-cont {
+  padding-bottom: 8vh;
+}
+.pn-subheader-cont {
+  padding-bottom: 10vh;
+}
+.pn-label-cont {
+  padding-bottom: 1vh;
+}
+.pn-button-cont {
+  padding-top: 2vh;
+}
+.pn-header {
+  text-align: left;
+  font-size: variables.$font-size-30;
+  font-weight: variables.$font-weight-normal;
+  font-family: variables.$font-family;
+  letter-spacing: 0px;
+  line-height: 0px;
+  opacity: 1;
+  margin: 0;
+}
+.pn-subheader {
+  text-align: left;
+  font-size: variables.$font-size-50;
+  font-weight: variables.$font-weight-bold;
+  font-family: variables.$font-family;
+  letter-spacing: 0px;
+  line-height: 0px;
+  opacity: 1;
+  margin: 0;
+}
+.pn-label {
+  text-align: left;
+  font-size: variables.$font-size-16;
+  font-weight: variables.$font-weight-normal;
+  font-family: variables.$font-family;
+  letter-spacing: 0px;
+  line-height: 0px;
+  opacity: 1;
+  margin: 0;
+}
+.button-submit {
+  width: 20%;
+}

@@ -1,0 +1,65 @@
+@use '../../styles/variables';
+
+.header-main-cont {
+  padding: 4vh;
+}
+.header-logo {
+  height: 8vh;
+  width: 4vw;
+}
+.header-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.header-sub-main {
+  @extend .header-main;
+}
+.header-data-cont {
+  display: flex;
+  flex-direction: column;
+}
+.header-verticalDivider {
+  border-left: 1px solid blue;
+  height: 8vh;
+  display: table;
+  margin: 0vh 2vw 0vh 2vw;
+}
+.header-hr-line {
+  color: blue;
+  width: 100%;
+  margin: 0vh 0vw 0vh 0vw;
+}
+.header-header {
+  text-align: left;
+  font-size: variables.$font-size-30;
+  font-weight: variables.$font-weight-normal;
+  font-family: variables.$font-family;
+  letter-spacing: 0px;
+  line-height: 0px;
+  opacity: 1;
+  margin: 0;
+}
+.header-subheader {
+  text-align: left;
+  font-size: variables.$font-size-50;
+  font-weight: variables.$font-weight-bold;
+  font-family: variables.$font-family;
+  letter-spacing: 0px;
+  line-height: 0px;
+  opacity: 1;
+  margin: 0;
+}
+.header-label {
+  text-align: left;
+  font-size: variables.$font-size-16;
+  font-weight: variables.$font-weight-normal;
+  font-family: variables.$font-family;
+  letter-spacing: 0px;
+  line-height: 0px;
+  opacity: 1;
+  margin: 0;
+}
+.button-submit {
+  width: 20%;
+}

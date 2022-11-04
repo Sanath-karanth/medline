@@ -1,0 +1,44 @@
+@use '../../styles/variables';
+
+.dt-main-cont {
+  padding: 2vh;
+}
+.dt-picture-soft-capture-Col {
+  width: 80% !important;
+}
+.dt-picturelist-Col {
+  width: 48% !important;
+  margin-right: 1vw;
+}
+.dt-operation-Col {
+  width: 20% !important;
+}
+.dt-picturelist-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 1vh;
+}
+.dt-capture-cont {
+  padding-bottom: 1vh;
+}
+.dt-softbill-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2vh;
+}
+.list-logo {
+  height: 3vh;
+  width: 2vw;
+}
+.preview-logo {
+  height: 3vh;
+  width: 1.5vw;
+  margin-right: 0.5vw;
+}
+.bill-logo {
+  height: 3vh;
+  width: 1.5vw;
+  margin-right: 0.5vw;
+}

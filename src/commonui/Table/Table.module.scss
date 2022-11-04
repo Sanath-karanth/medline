@@ -1,0 +1,15 @@
+@use '../../styles/variables';
+
+.main-table {
+  padding: 0vh;
+}
+.dt-picturelist-table {
+  width: 100%;
+  height: 40vh;
+  overflow-y: scroll;
+}
+.dt-softbill-table {
+  width: 100%;
+  height: 26vh;
+  overflow-y: scroll;
+}
