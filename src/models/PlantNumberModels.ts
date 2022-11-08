@@ -11,7 +11,7 @@ export interface IDefaultResponse {
   message: string | null;
 }
 export interface IPlantNumberListResponse extends IDefaultResponse {
-  Plant: IPlantNumberListResponse[] | [];
+  Plant: IPlantNumberResponse[] | [];
   WorkOrder: IWorkOrderResponse[] | [];
 }
 export interface IDefaultPlantNumberResponse extends IDefaultResponse {

@@ -7,4 +7,4 @@ export type IReactSelectedOption = {
   label: string;
 };
 
-export type IReactSelectedOptionList = IReactSelectedOption[];
+export type IReactSelectOptionList = IReactSelectedOption[];

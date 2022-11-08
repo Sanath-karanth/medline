@@ -37,7 +37,7 @@ export interface IWorkOrderDetailsRequest {
   WONumber: string;
 }
 export interface IUserDetails {
-  PlantNumber: string;
+  plantNumber: string;
   dtName: string;
 }
 export interface ISoftBillResponse {
