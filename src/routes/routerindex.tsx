@@ -5,6 +5,9 @@ const NotFound: FunctionComponent = () => <Fragment>Not Found!!</Fragment>;
 const Loading: FunctionComponent = () => <Fragment>Loading...</Fragment>;
 
 const PlantNumberComponent = lazy(() => import('../containers/PlantNumber/PlantNumber'));
+const WorkOrderNumberComponent = lazy(
+  () => import('../containers/WorkOrderNumber/WorkOrderNumber'),
+);
 const DesignTechnicianComponent = lazy(
   () => import('../containers/DesignTechnician/DesignTechnician'),
 );
@@ -19,13 +22,14 @@ const Routers: FunctionComponent = () => {
               element={
                 <Navigate state={{ user: 'DT' }} replace to='/design-technician/plant-number' />
               }
-            ></Route>
+            />
+            <Route path='/design-technician/:route' element={<DesignTechnicianComponent />} />
+            <Route path='/design-technician/plant-number' element={<PlantNumberComponent />} />
             <Route
-              path='/design-technician/plant-number'
-              element={<PlantNumberComponent />}
-            ></Route>
-            <Route path='/design-technician/:route' element={<DesignTechnicianComponent />}></Route>
-            <Route path='*' element={<NotFound />}></Route>
+              path='/design-technician/work-order-number'
+              element={<WorkOrderNumberComponent />}
+            />
+            <Route path='*' element={<NotFound />} />
           </Routes>
         </BrowserRouter>
       </Suspense>
