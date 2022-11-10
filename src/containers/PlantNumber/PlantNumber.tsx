@@ -26,11 +26,14 @@ const PlantNumber: FunctionComponent = () => {
   const dispatch = useDispatch();
   const userType: string = location.state.user;
 
-  let instructionText = 'Please slect number to continue';
-  let userName = 'DT Name';
+  let instructionText;
+  let userName;
   if (userType === UserTypeConstants.LL) {
     instructionText = 'Please Select the Conveyor Name';
     userName = 'LL Name';
+  } else if (userType === UserTypeConstants.DT) {
+    instructionText = '* Please slect number to continue';
+    userName = 'DT Name';
   }
 
   const [selectedOption, setSelectedOption] = useState<IReactSelectedOption | null>(null);
