@@ -64,7 +64,7 @@ const PlantNumber: FunctionComponent = () => {
     if (userType === UserTypeConstants.LL) {
       navigate('/line-leader/workorder', { state: { user: 'LL' } });
     } else {
-      navigate('/design-technician/work-order-number', { state: { user: 'LL' } });
+      navigate('/design-technician/work-order-number', { state: { user: 'DT' } });
     }
   };
 
