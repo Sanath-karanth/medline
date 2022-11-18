@@ -8,9 +8,13 @@ const PlantNumberComponent = lazy(() => import('../containers/PlantNumber/PlantN
 const WorkOrderNumberComponent = lazy(
   () => import('../containers/WorkOrderNumber/WorkOrderNumber'),
 );
+
 const DesignTechnicianComponent = lazy(
   () => import('../containers/DesignTechnician/DesignTechnician'),
 );
+
+const AdminComponent = lazy(() => import('../containers/Admin/Admin'));
+
 const Routers: FunctionComponent = () => {
   return (
     <Fragment>
@@ -29,6 +33,7 @@ const Routers: FunctionComponent = () => {
               path='/design-technician/work-order-number'
               element={<WorkOrderNumberComponent />}
             />
+            <Route path='/admin' element={<AdminComponent />} />
             <Route path='*' element={<NotFound />} />
           </Routes>
         </BrowserRouter>

@@ -1,0 +1,25 @@
+@use '../../styles/variables';
+
+.admin-menu-cont {
+  padding-top: 2vh;
+}
+
+// Menu styles
+.admin-menu-Col {
+  width: 7%;
+}
+.admin-content-Col {
+  width: 93%;
+}
+.admin-menu {
+  padding: 1vh;
+  background-color: aqua;
+  height: 80vh;
+}
+.admin-icon {
+  height: 10vh;
+  width: 4vw;
+}
+.admin-menu-box {
+  padding: 1vw;
+}
